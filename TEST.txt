@@ -1,0 +1,6 @@
+color the text with php.
+display the elements of merge array
+php to describe arithmetics operations
+php program to find root of a quadratic equations
+display the factorial
+print armstrong number between two integer
