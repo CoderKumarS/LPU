@@ -6,3 +6,4 @@ display the factorial
 print armstrong number between two integer
 print prime number between two integer
 Transpose of a matrix
+Multiply matrices by passing it to a function
