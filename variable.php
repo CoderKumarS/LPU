@@ -23,6 +23,9 @@
     myTest();
     ?>
     <p>Local Variabe</p>
+    <?php
+    
+    ?>
 </body>
 
 </html>
