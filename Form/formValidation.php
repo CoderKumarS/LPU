@@ -8,8 +8,10 @@
 </head>
 
 <body>
-    Welcome <?php echo $_POST["name"]; ?><br>
-    Your Email address is : <?php echo $_POST["email"]; ?>
+    Welcome <?php echo $_POST["fname"] . " " . $_POST["mname"] . " " . $_POST["lname"]; ?><br>
+    Your Email address is : <?php echo $_POST["email"]; ?><br>
+    Your Address is : <?php echo $_POST["address"]; ?><br>
+    Your Remarks is : <?php echo $_POST["remarks"]; ?><br>
 </body>
 
 </html>
