@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="formValidation.php" method="post">
+        <h1>Online Medical Appointment Form</h1>
+        <label for="name">Your name</label>
+        <br>
+        <input type="text" name="name" placeholder="First" id="first" required>
+        <input type="text" name="last" placeholder="Last" id="last" required>
+        <br>
+        <br>
+        <label for="date">Birth Date</label>
+        <input type="date" name="date" placeholder="MM/DD/YYYY" id="date" required>
+        <br>
+        <br>
+        <label for="visit">Is your first time visit</label>
+        <br>
+        <input type="radio" name="visit" id="visit" value="yes">Yes
+        <input type="radio" name="visit" id="visit" value="no">No
+        <br>
+        <br>
+        <label for="name">Name the doctor you want to visit:</label>
+        <br>
+        <input type="text" name="docfirst" placeholder="First" id="docfirst" required>
+        <input type="text" name="doclast" placeholder="Last" id="doclast" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
